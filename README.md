@@ -104,6 +104,8 @@ This creates an executable. This executable takes three arguments: 1. resource d
 1. Install docker and Nvidia-docker2 ([instruction](https://github.com/jhwangbo/raisimHelp/tree/master#install-docker--nvidia-docker2)).
 2. Build an image ```docker build -t raisim_gym $WORKSPACE/raisimGym/dockers/gpu```
 3. Create a container using the provided docker runner ```$WORKSPACE/raisimGym/dockers/gpu/runner.bash```
+sudo docker run -t -i raisim_gym
+
 4. Inside the container, compile your environment and execute your runner
 
 ## Tutorial
